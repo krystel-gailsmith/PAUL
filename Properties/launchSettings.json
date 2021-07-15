@@ -1,0 +1,17 @@
+﻿
+{
+  "Kestrel": {
+    "Endpoints": {
+      "Http": {
+        "Url": "http://localhost:9090"
+      },
+      "Https": {
+        "Url": "https://localhost:5001",
+        "Certificate": {
+          "Path": "<path to .pfx file>",
+          "Password": "<certificate password>"
+        }
+      }
+    }
+  }
+}
