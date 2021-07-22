@@ -10,11 +10,11 @@
         "projectUniqueName": "/var/www/PAUL/PAUL.csproj",
         "projectName": "PAUL",
         "projectPath": "/var/www/PAUL/PAUL.csproj",
-        "packagesPath": "/root/.nuget/packages/",
+        "packagesPath": "/home/pmc/.nuget/packages/",
         "outputPath": "/var/www/PAUL/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/root/.nuget/NuGet/NuGet.Config"
+          "/home/pmc/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"

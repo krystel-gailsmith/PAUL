@@ -3,13 +3,13 @@
   "Kestrel": {
     "Endpoints": {
       "Http": {
-        "Url": "http://localhost:9090"
+        "Url": "http://localhost:5000"
       },
       "Https": {
         "Url": "https://localhost:5001",
         "Certificate": {
-          "Path": "<path to .pfx file>",
-          "Password": "<certificate password>"
+          "Path": "/etc/letsencrypt/live/paul.gegi.usherbrooke.ca/fullchain.pem",
+          "KeyPath": "/etc/letsencrypt/live/paul.gegi.usherbrooke.ca/privkey.pem"
         }
       }
     }
