@@ -9,6 +9,7 @@
       "restore": {
         "projectUniqueName": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\PAUL.csproj",
         "projectName": "PAUL",
+<<<<<<< HEAD
         "projectPath": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\PAUL.csproj",
         "packagesPath": "C:\\Users\\Marco\\.nuget\\packages\\",
         "outputPath": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\obj\\",
@@ -16,6 +17,14 @@
         "configFilePaths": [
           "C:\\Users\\Marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+        "projectPath": "/var/www/PAUL/PAUL.csproj",
+        "packagesPath": "/home/pmc/.nuget/packages/",
+        "outputPath": "/var/www/PAUL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/pmc/.nuget/NuGet/NuGet.Config"
+>>>>>>> 9185092da9d7d2f4dd4d4728c1828b3689711ae6
         ],
         "originalTargetFrameworks": [
           "net5.0"

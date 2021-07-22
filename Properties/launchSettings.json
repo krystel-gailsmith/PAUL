@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "iisSettings": {
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
@@ -22,6 +23,19 @@
       "applicationUrl": "http://localhost:5000",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
+=======
+  "Kestrel": {
+    "Endpoints": {
+      "Http": {
+        "Url": "http://localhost:5000"
+      },
+      "Https": {
+        "Url": "https://localhost:5001",
+        "Certificate": {
+          "Path": "/etc/letsencrypt/live/paul.gegi.usherbrooke.ca/fullchain.pem",
+          "KeyPath": "/etc/letsencrypt/live/paul.gegi.usherbrooke.ca/privkey.pem"
+        }
+>>>>>>> 9185092da9d7d2f4dd4d4728c1828b3689711ae6
       }
     }
   }

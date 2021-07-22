@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "y3ImYRXZo/a3AkOKiprXrq4cNr7henaFEtANKVO3UxspDzT/udJbcMNZIIlPMhMA5NgXRcPwjji6FlOhHDl1/w==",
+=======
+  "dgSpecHash": "OhCkQiU9Ihrd4aH5oHr8yNpFPE4Fj+3I0Q4i7qqewDteXC1R+TWi9+/0IFWhgkbvwX6ekS/HfiJGmGR6lJAEbQ==",
+>>>>>>> 9185092da9d7d2f4dd4d4728c1828b3689711ae6
   "success": true,
   "projectFilePath": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\PAUL.csproj",
   "expectedPackageFiles": [],
