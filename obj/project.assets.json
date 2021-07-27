@@ -8,18 +8,13 @@
     "net5.0": []
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\Marco\\.nuget\\packages\\": {}
-=======
-    "/home/pmc/.nuget/packages/": {}
->>>>>>> 9185092da9d7d2f4dd4d4728c1828b3689711ae6
   },
   "project": {
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\PAUL.csproj",
       "projectName": "PAUL",
-<<<<<<< HEAD
       "projectPath": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\PAUL.csproj",
       "packagesPath": "C:\\Users\\Marco\\.nuget\\packages\\",
       "outputPath": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\obj\\",
@@ -27,14 +22,6 @@
       "configFilePaths": [
         "C:\\Users\\Marco\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-=======
-      "projectPath": "/var/www/PAUL/PAUL.csproj",
-      "packagesPath": "/home/pmc/.nuget/packages/",
-      "outputPath": "/var/www/PAUL/obj/",
-      "projectStyle": "PackageReference",
-      "configFilePaths": [
-        "/home/pmc/.nuget/NuGet/NuGet.Config"
->>>>>>> 9185092da9d7d2f4dd4d4728c1828b3689711ae6
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -79,5 +66,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
