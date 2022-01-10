@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y3ImYRXZo/a3AkOKiprXrq4cNr7henaFEtANKVO3UxspDzT/udJbcMNZIIlPMhMA5NgXRcPwjji6FlOhHDl1/w==",
+  "dgSpecHash": "x6uTSSZZ4f0I9Dy+uxeLocFR/YnuG7+kpo//i7jJu1SYWK8bdtIJ47r2CZ873IwIzivxtNT2/3twuUoKvgj3yg==",
   "success": true,
   "projectFilePath": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\PAUL.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problem reading the cache file D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }
