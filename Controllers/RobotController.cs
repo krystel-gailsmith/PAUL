@@ -20,9 +20,18 @@ namespace PAUL.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index(int commandStatus)
+        public IActionResult Index()
         {
+            return View();
+        }
 
+        [HttpPost]
+        public IActionResult Index(CommandStatus command)
+        {
+            int ID = command.ID;
+            string msg = command.Description;
+
+            // Faire quelque chose ici
             return View();
         }
 

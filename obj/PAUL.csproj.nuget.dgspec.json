@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\PAUL.csproj": {}
+    "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\web-app\\PAUL.csproj": {}
   },
   "projects": {
-    "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\PAUL.csproj": {
+    "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\web-app\\PAUL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\PAUL.csproj",
+        "projectUniqueName": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\web-app\\PAUL.csproj",
         "projectName": "PAUL",
-        "projectPath": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\PAUL.csproj",
+        "projectPath": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\web-app\\PAUL.csproj",
         "packagesPath": "C:\\Users\\Marco\\.nuget\\packages\\",
-        "outputPath": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\obj\\",
+        "outputPath": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\web-app\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Marco\\AppData\\Roaming\\NuGet\\NuGet.Config",

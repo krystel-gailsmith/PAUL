@@ -16,14 +16,15 @@ using System;
 
 namespace PAUL.Models.Command
 {
-    public class commandStatus
+    public class CommandStatus
     {
         public int ID { get; }
-        public String Description { get; }
+        public String Description { get; set; }
 
-        public commandStatus(string Description)
+        public CommandStatus(string Description)
         {
             this.Description = Description;
         }
+        public CommandStatus(){ this.Description = ""; }
     }
 }

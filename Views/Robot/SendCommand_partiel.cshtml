@@ -1,0 +1,21 @@
+@model PAUL.Models.Command.CommandStatus
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width"/>
+        <title>ROS Test</title>
+    </head>
+    <body>
+        @using (Html.BeginForm("Index", "Robot", FormMethod.Post))
+        {
+            <div>
+                @Html.TextAreaFor(m => m.ID)
+            </div>
+            <div>
+                @Html.TextAreaFor(m => m.Description)
+            </div>
+            <input type="submit" value="Envoyer"/>
+
+        }
+    </body>
+</html>

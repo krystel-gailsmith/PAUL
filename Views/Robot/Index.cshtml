@@ -3,6 +3,8 @@
 }
 
 <div class="text-center">
-    <h1 class="display-4">Hi</h1>
+    <h1 class="display-4">ROS communication test</h1>
     <p>We will be testing ROS integration here.</p>
+    @await Html.PartialAsync("~/Views/Robot/SendCommand_partiel.cshtml")
+    @* , new PAUL.Models.Command.CommandStatus()) *@
 </div>

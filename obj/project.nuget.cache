@@ -1,12 +1,8 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "x6uTSSZZ4f0I9Dy+uxeLocFR/YnuG7+kpo//i7jJu1SYWK8bdtIJ47r2CZ873IwIzivxtNT2/3twuUoKvgj3yg==",
-=======
-  "dgSpecHash": "XI7eNNTtIVXtJjTCmZmEaLnwT8/dp7tPdRpkE1+5mSusyml6kGGvYHC6NXDV1q618THIFQxKgO+T5e47WNsiXA==",
->>>>>>> 942f256ed20c1d651c59fcfed338895ffad4c5dc
+  "dgSpecHash": "WcztMNjDMC8SiCgo8CIEG1cg0J3TMkpr9iVMZQIHK9PtYEVnlLGCZeiubJjGFwyOtfiS7dHLVikwXrcw77jabg==",
   "success": true,
-  "projectFilePath": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\PAUL.csproj",
+  "projectFilePath": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\web-app\\PAUL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Marco\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Marco\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
@@ -107,5 +103,12 @@
     "C:\\Users\\Marco\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\Marco\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\web-app\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
