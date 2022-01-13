@@ -22,5 +22,4 @@ RUN dotnet publish "PAUL.csproj" -c Release -o /app/publish
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
->>>>>>> 942f256ed20c1d651c59fcfed338895ffad4c5dc
 ENTRYPOINT ["dotnet", "PAUL.dll"]
