@@ -13,13 +13,14 @@ namespace PAUL.Controllers
 {
     public class RobotController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<RobotController> _logger;
 
-        public RobotController(ILogger<HomeController> logger)
+        public RobotController(ILogger<RobotController> logger)
         {
             _logger = logger;
         }
 
+        // Classic MVC communication
         public IActionResult Index()
         {
             return View();
@@ -34,6 +35,9 @@ namespace PAUL.Controllers
             // Faire quelque chose ici
             return View();
         }
+
+        // SignalR communication
+        
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
