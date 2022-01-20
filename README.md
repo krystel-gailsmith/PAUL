@@ -22,7 +22,7 @@ Si ce n'est déjà fait, <a href="https://docs.docker.com/get-docker/">installer
  ```bash
   docker run -p 8080:80 --name PAUL -d gpr1me/paulwebapp
 ```
-Votre conteneur est maintenant en fonction. Il est possible d'y accéder dans un navigateur (http://localhost:8080). Il est aussi possible d'y accéder via d'autres appareils sur le même réseau local via l'adresse IP de votre poste (ex: http://<votreIP>:8080).
+Votre conteneur est maintenant en fonction. Il est possible d'y accéder dans un navigateur (http://localhost:8080). Il est aussi possible d'y accéder via d'autres appareils sur le même réseau local via l'adresse IP de votre poste (ex: http://\<votreIP\>:8080).
 
 Sur Windows
 ```bash
