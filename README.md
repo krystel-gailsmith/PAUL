@@ -14,7 +14,7 @@ Cloner la solution
   git clone https://github.com/pmc-paul/web-app
 ```
 
-Si ce n'est déjà fait, installer Docker (https://docs.docker.com/get-docker/).
+Si ce n'est déjà fait, <a href="https://docs.docker.com/get-docker/">installer Docker</a>.
 
 
 À la racine du projet, générer le conteneur
