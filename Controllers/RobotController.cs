@@ -4,7 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.Logging;
+using PAUL.Hubs;
 using PAUL.Models;
 
 using PAUL.Models.Command;
@@ -14,6 +16,7 @@ namespace PAUL.Controllers
     public class RobotController : Controller
     {
         private readonly ILogger<RobotController> _logger;
+
 
         public RobotController(ILogger<RobotController> logger)
         {
@@ -35,8 +38,6 @@ namespace PAUL.Controllers
             // Faire quelque chose ici
             return View();
         }
-
-        // SignalR communication
         
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

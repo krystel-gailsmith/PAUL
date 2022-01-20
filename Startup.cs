@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.AspNetCore.SignalR;
 using PAUL.Hubs;
 
 namespace PAUL
@@ -50,6 +51,14 @@ namespace PAUL
             }
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+
+            app.UseCors(builder =>
+            {
+                builder.WithOrigins("http://localhost:5000/hub")
+                    .AllowAnyHeader()
+                    .WithMethods("GET", "POST")
+                    .AllowCredentials();
+            });
 
             app.UseRouting();
 
