@@ -8,16 +8,10 @@ Ce git est dédié à l'application Web qui supporte et affiche l'état du robot
 
 Pour déployer l'application dans un conteneur Docker:
 
-Cloner la solution
-
-```bash
-  git clone https://github.com/pmc-paul/web-app
-```
-
 Si ce n'est déjà fait, <a href="https://docs.docker.com/get-docker/">installer Docker</a>.
 
 
-À la racine du projet, générer le conteneur
+Pour générer le conteneur
 
  ```bash
   docker run -p 8080:80 --name PAUL -d gpr1me/paulwebapp
