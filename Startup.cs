@@ -52,13 +52,13 @@ namespace PAUL
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
-            app.UseCors(builder =>
-            {
-                builder.WithOrigins("http://localhost:5000/hub")
-                    .AllowAnyHeader()
-                    .WithMethods("GET", "POST")
-                    .AllowCredentials();
-            });
+            // app.UseCors(builder =>
+            // {
+            //     builder.WithOrigins("http://localhost:5000/hub")
+            //         .AllowAnyHeader()
+            //         .WithMethods("GET", "POST")
+            //         .AllowCredentials();
+            // });
 
             app.UseRouting();
 

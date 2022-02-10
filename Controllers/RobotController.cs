@@ -38,6 +38,11 @@ namespace PAUL.Controllers
             // Faire quelque chose ici
             return View();
         }
+
+        public IActionResult ConnectTo()
+        {
+            return View();
+        }
         
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
