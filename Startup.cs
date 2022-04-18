@@ -9,6 +9,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.HttpOverrides;
+using Microsoft.AspNetCore.SignalR;
+using PAUL.Hubs;
 
 namespace PAUL
 {
@@ -29,6 +31,7 @@ namespace PAUL
             {
                 options.ForwardedHeaders = ForwardedHeaders.XForwardedFor | ForwardedHeaders.XForwardedProto;
             });
+            services.AddSignalR();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,12 +52,21 @@ namespace PAUL
             app.UseHttpsRedirection();
             app.UseStaticFiles();
 
+            // app.UseCors(builder =>
+            // {
+            //     builder.WithOrigins("http://localhost:5000/hub")
+            //         .AllowAnyHeader()
+            //         .WithMethods("GET", "POST")
+            //         .AllowCredentials();
+            // });
+
             app.UseRouting();
 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
             {
+                endpoints.MapHub<ChatHub>("/hub");
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
