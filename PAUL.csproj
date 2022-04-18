@@ -9,14 +9,20 @@
 
   <ItemGroup>
     <PackageReference Include="EntityFramework" Version="6.4.4" />
+    <PackageReference Include="JavaScriptEngineSwitcher.Extensions.MsDependencyInjection" Version="3.3.0" />
+    <PackageReference Include="JavaScriptEngineSwitcher.V8" Version="3.17.2" />
     <PackageReference Include="jQuery" Version="3.6.0" />
     <PackageReference Include="Microsoft.AspNetCore.Http.features" Version="5.0.13" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR" Version="1.1.0" />
+    <PackageReference Include="Microsoft.ClearScript.V8.Native.linux-x64" Version="7.2.2" />
+    <PackageReference Include="Microsoft.ClearScript.V8.Native.win-x64" Version="7.2.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.8">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="5.0.2" />
+    <PackageReference Include="React.AspNet" Version="5.2.12" />
   </ItemGroup>
 
 </Project>
