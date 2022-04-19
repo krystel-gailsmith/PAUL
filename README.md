@@ -1,7 +1,7 @@
 
 # PAUL - Panier AUtonome intelLigent
 
-PAUL est une plateforme conçu pour les épiceries. Il s'agit d'un robot capable de se déplacer de façon autonome et de prendre des items à l'aide d'un système de préhension. Grâce à ses différents capteurs, PAUL peut côtoyer les humains de façon sécuritaire et s'adapter aux différentes épiceries. 
+PAUL est une plateforme conçue pour les épiceries. Il s'agit d'un robot capable de se déplacer de façon autonome et de prendre des items à l'aide d'un système de préhension. Grâce à ses différents capteurs, PAUL peut côtoyer les humains de façon sécuritaire et s'adapter aux différentes épiceries. 
 
 Ce git est dédié à l'application Web qui supporte et affiche l'état du robot dans ses fonctions.
 ## Deployment
