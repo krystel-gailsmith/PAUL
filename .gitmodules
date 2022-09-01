@@ -1,0 +1,3 @@
+[submodule "wwwroot/reactApp"]
+	path = wwwroot/reactApp
+	url = https://github.com/pmc-paul/reactApp
