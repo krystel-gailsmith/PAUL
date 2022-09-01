@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "xJMDyPTA769+yjr2xJUhCEDYY+NMA2iBXct4EaUZn5YiO1xuFWKkr3lqm6cfaODg7BwrOOlTYoZkJpWUJtZzcA==",
+  "dgSpecHash": "X9kQ6zXdP4T1aOcdJG3FAQG+3ha8YqnVmOlMzhReyBh/WLbGptsaara44dihLFSY6Y0U9pG5+sPG9s0ZU8rH4g==",
   "success": true,
   "projectFilePath": "D:\\Université\\OneDrive - USherbrooke\\Sessions\\Session6\\PMC\\WebAPP\\web-app\\PAUL.csproj",
   "expectedPackageFiles": [
@@ -148,11 +148,7 @@
     "C:\\Users\\Marco\\.nuget\\packages\\system.threading.channels\\4.5.0\\system.threading.channels.4.5.0.nupkg.sha512",
     "C:\\Users\\Marco\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\Marco\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
-    "C:\\Users\\Marco\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\Marco\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512",
-    "C:\\Users\\Marco\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Marco\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\Marco\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+    "C:\\Users\\Marco\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }
